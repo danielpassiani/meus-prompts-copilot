@@ -1,32 +1,36 @@
-# 🧩 Modos do Copiloto (Ask, Edit, Plan, Agent e Study)
+# 🧩 My First Copilot - Custom Prompts
 
-O Copiloto oferece diferentes **modos de interação** para adaptar-se à nossa rotina de desenvolvimento. Desde tirar dúvidas técnicas sem impacto no código, até arquitetar soluções e delegar implementações mais extensas. 
+Bem-vindo ao meu repositório de instruções personalizadas para IA. 
 
-A ideia central é garantir máxima produtividade. Tendo em vista um fluxo de trabalho intenso entre o horário comercial e os estudos em Análise e Desenvolvimento de Sistemas no período noturno, a eficiência e a clareza são fundamentais.
+Este projeto contém um conjunto de **prompts estruturados** desenhados para adaptar assistentes de código (como o GitHub Copilot) a um fluxo de trabalho altamente eficiente. O objetivo principal é acelerar o desenvolvimento, garantir a qualidade do código e potencializar o aprendizado ativo durante a minha formação em **Análise e Desenvolvimento de Sistemas**.
+
+As instruções foram otimizadas para uma rotina intensiva e têm como foco as tecnologias: `Python`, `JavaScript`, `HTML`, `CSS` e `SQL`.
 
 ---
 
-### ❓ Ask
-O modo **Ask** é voltado para consultoria técnica. O Copiloto analisa o contexto (stack trace, arquivos, funções) e atua como um mentor sênior.
-**Foco:** Explicar o "porquê", principalmente em Python e SQL, com respostas diretas e sem modificação do código base.
-📄 **Prompt:** `prompts/prompt-ask.md`
+## ⚙️ Modos de Interação
 
-### ✏️ Edit
-O modo **Edit** serve para refatorações e ajustes finos no código existente.
-**Foco:** Código limpo, robusto e funcional. O Copiloto aplica otimizações de performance, melhorias de lógica e tratamentos de erro diretamente, sem delongas explicativas.
-📄 **Prompt:** `prompts/prompt-edit.md`
+Cada prompt define um "modo de operação" específico para o assistente, dependendo do objetivo do momento — desde tirar uma dúvida rápida até delegar a criação de uma estrutura completa.
 
-### 🧭 Plan
-O modo **Plan** é o nosso estúdio de arquitetura. Diante de projetos complexos, desafios acadêmicos ou novas features, o Copiloto pausa a execução para estruturar.
-**Foco:** Dividir o problema em etapas, validar a abordagem e criar um roteiro tático antes de iniciar a implementação.
-📄 **Prompt:** `prompts/prompt-plan.md`
+### ❓ [Ask](prompts/prompt-ask.md) (O Mentor Técnico)
+Modo de **somente leitura**. Utilizado para diagnósticos rápidos, resolução de bugs e explicações conceituais diretas. Ideal para momentos em que o tempo é curto e a prioridade é entender o *porquê* de um erro de sintaxe ou falha de lógica, sem que o assistente altere o código fonte.
 
-### 🤖 Agent
-O modo **Agent** é o nível de autonomia máxima. Ideal para delegar o trabalho pesado e ganhar tempo na rotina diária.
-**Foco:** O Copiloto atua como um dev júnior autônomo, navegando entre múltiplos arquivos, criando estruturas e executando tarefas macro de forma independente.
-📄 **Prompt:** `prompts/prompt-agent.md`
+### ✏️ [Edit](prompts/prompt-edit.md) (O Par de Programação)
+Focado em **refatoração e otimização**. Usado para limpar o código, aplicar princípios de Clean Code e melhorar a performance de scripts já existentes. A comunicação é mínima e o foco é estritamente na entrega de uma lógica robusta e com estética profissional.
 
-### 📚 Study
-O modo **Study** é uma ferramenta de aprendizagem ativa para evolução profissional.
-**Foco:** Orientar o raciocínio em vez de entregar a resposta pronta. Ele aponta trade-offs, utiliza analogias estratégicas para fixação de conceitos e prepara o terreno para desafios técnicos de nível de estágio e júnior.
-📄 **Prompt:** `prompts/prompt-study.md`
+### 🧭 [Plan](prompts/prompt-plan.md) (O Arquiteto Tático)
+Modo de **planejamento e arquitetura**. Antes de qualquer linha de código ser escrita, este modo estrutura o projeto passo a passo. Define a modelagem de dados no banco, a arquitetura de arquivos e os fluxos de lógica, criando um roteiro seguro para o desenvolvimento da aplicação.
+
+### 🤖 [Agent](prompts/prompt-agent.md) (O Assistente de Desenvolvimento)
+Modo de **execução autônoma**. Destinado a assumir o trabalho pesado e repetitivo. O assistente recebe um escopo macro, navega pelos arquivos, cria as estruturas necessárias e implementa a solução de ponta a ponta, otimizando o tempo de desenvolvimento.
+
+### 📚 [Study](prompts/prompt-study.md) (O Tutor Imersivo)
+Focado em **aprendizado ativo e preparação para o mercado**. Em vez de entregar respostas prontas, este modo atua como um tutor que guia o raciocínio. Utiliza exemplos práticos, aponta armadilhas comuns e recorre a analogias do universo gamer e geek para facilitar a fixação de conceitos complexos de programação.
+
+---
+
+## 🚀 Como utilizar
+
+Para utilizar este fluxo, basta copiar o conteúdo do arquivo `.md` correspondente ao modo que você deseja usar e colar nas instruções customizadas (Custom Instructions) da sua ferramenta de IA predileta. 
+
+Alterne entre os modos conforme a necessidade da tarefa: planeje com o **Plan**, delegue com o **Agent**, ajuste com o **Edit**, tire dúvidas com o **Ask** e aprofunde o conhecimento com o **Study**.
