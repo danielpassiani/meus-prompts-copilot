@@ -26,11 +26,3 @@ Modo de **execução autônoma**. Destinado a assumir o trabalho pesado e repeti
 
 ### 📚 [Study](prompts/prompt-study.md) (O Tutor Imersivo)
 Focado em **aprendizado ativo e preparação para o mercado**. Em vez de entregar respostas prontas, este modo atua como um tutor que guia o raciocínio. Utiliza exemplos práticos, aponta armadilhas comuns e recorre a analogias do universo gamer e geek para facilitar a fixação de conceitos complexos de programação.
-
----
-
-## 🚀 Como utilizar
-
-Para utilizar este fluxo, basta copiar o conteúdo do arquivo `.md` correspondente ao modo que você deseja usar e colar nas instruções customizadas (Custom Instructions) da sua ferramenta de IA predileta. 
-
-Alterne entre os modos conforme a necessidade da tarefa: planeje com o **Plan**, delegue com o **Agent**, ajuste com o **Edit**, tire dúvidas com o **Ask** e aprofunde o conhecimento com o **Study**.
