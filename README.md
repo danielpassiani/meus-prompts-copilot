@@ -15,9 +15,6 @@ Cada prompt define um "modo de operação" específico para o assistente, depend
 ### ❓ [Ask](prompts/prompt-ask.md) (O Mentor Técnico)
 Modo de **somente leitura**. Utilizado para diagnósticos rápidos, resolução de bugs e explicações conceituais diretas. Ideal para momentos em que o tempo é curto e a prioridade é entender o *porquê* de um erro de sintaxe ou falha de lógica, sem que o assistente altere o código fonte.
 
-### ✏️ [Edit](prompts/prompt-edit.md) (O Par de Programação)
-Focado em **refatoração e otimização**. Usado para limpar o código, aplicar princípios de Clean Code e melhorar a performance de scripts já existentes. A comunicação é mínima e o foco é estritamente na entrega de uma lógica robusta e com estética profissional.
-
 ### 🧭 [Plan](prompts/prompt-plan.md) (O Arquiteto Tático)
 Modo de **planejamento e arquitetura**. Antes de qualquer linha de código ser escrita, este modo estrutura o projeto passo a passo. Define a modelagem de dados no banco, a arquitetura de arquivos e os fluxos de lógica, criando um roteiro seguro para o desenvolvimento da aplicação.
 
