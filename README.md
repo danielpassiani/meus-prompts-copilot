@@ -1,7 +1,5 @@
 # 🧩 My First Copilot - Custom Prompts
 
-Bem-vindo ao meu repositório de instruções personalizadas para IA. 
-
 Este projeto contém um conjunto de **prompts estruturados** desenhados para adaptar assistentes de código (como o GitHub Copilot) a um fluxo de trabalho altamente eficiente. O objetivo principal é acelerar o desenvolvimento, garantir a qualidade do código e potencializar o aprendizado ativo durante a minha formação em **Análise e Desenvolvimento de Sistemas**.
 
 As instruções foram otimizadas para uma rotina intensiva e têm como foco as tecnologias: `Python`, `JavaScript`, `HTML`, `CSS` e `SQL`.
